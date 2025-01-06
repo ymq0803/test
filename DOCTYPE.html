@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+</head>
+<body>
+    <h1>正在跳轉...</h1>
+    <script>
+        var url = ['https://www.amazon.co.jp/', 'https://www.yahoo.co.jp/'];
+        location.assign(url[Math.floor(Math.random() * url.length)]);
+    </script>
+</body>
+</html>
